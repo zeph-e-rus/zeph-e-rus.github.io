@@ -293,6 +293,8 @@ header .navbar.radius-nav .logo img {
 
 header .navbar.full-nav .logo img {
     margin-right: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 header .navbar .social-icons {
@@ -340,7 +342,7 @@ header .navbar.full-nav.white nav ul li a{
 }
 
 header .navbar.full-nav .rspbtn button{
-    color: #000;
+    color: #fff;
 }
 
 header .navbar.full-nav.white nav ul li a:hover{
@@ -387,9 +389,12 @@ header .navbar.full-nav.white .social-icons a:hover{
     }
     
     header .navbar.full-nav nav ul li a {
+        color: #fff;
+        padding: 24px 20px 18px 20px;
+        font-size: 18px;
+    }
+    header .navbar.full-nav nav ul li:hover ul.dropdown-menu li a {
         color: #000;
-        padding: 24px 11px 18px 12px;
-        font-size: 14px;
     }
     
     header .navbar nav ul li a:hover,
@@ -653,7 +658,7 @@ header .navbar.full-nav.white .social-icons a:hover{
 }
 
 .home.type-3 {
-    background: url(../images/home-4.jpg) bottom center;
+    background: url('../images/index/Banner.jpg') bottom center;
     width: 100%;
     display: table;
     position: relative;
@@ -2252,7 +2257,7 @@ footer.type-2 .footer-bottom .social-icons a{
     }
     
     .home.type-3{
-    background: url(../images/home-4.jpg) bottom center;
+    background: url(../images/index/Banner-M.jpg) bottom center;
     width: 100%;
     background-size: cover;
     }
