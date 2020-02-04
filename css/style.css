@@ -29,7 +29,11 @@
 body{
 	font-family: 'Rajdhani', sans-serif;
 }
-
+.img1 {
+    width:100px;
+    height:100px;
+    background: url() no-repeat scroll 0 0;
+  }
 html{
 	height: 100%;
 }
