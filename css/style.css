@@ -2049,7 +2049,7 @@ blockquote {
 .footer {
     left: 0;
     bottom: 0;
-    height:440px;
+    height:380px;
     width: 100%;
     background-color: black;
     color: orange;
@@ -2057,7 +2057,7 @@ blockquote {
     position: relative;
  }
  .footer .footer-content{
-  height: 400px;
+  height: 340px;
   display: flex;
   text-align: left;
  }
