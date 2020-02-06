@@ -787,6 +787,7 @@ header .navbar.full-nav.white .social-icons a:hover{
     position: relative;
     margin-bottom: -139px;
     top: 0;
+    background-color: #000;
 }
 
 
@@ -796,6 +797,7 @@ header .navbar.full-nav.white .social-icons a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
     height: 250px;
     overflow: hidden;
     width: 100%;
