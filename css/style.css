@@ -168,7 +168,9 @@ font-weight: lighter!important;
 .line.bold{
     height: 4px;
 }
-
+.space{
+    margin-left: 40px; 
+  }
 
 /* Typoghraphy */ 
 
@@ -649,7 +651,9 @@ header .navbar.full-nav.white .social-icons a:hover{
     background-attachment: fixed;
     background-position: 50% 50%;
 }
-
+a {
+    color: rgb(190,190,190);
+  }
 .home.type-2 {
     background: url(../images/home-2.jpg) bottom center;
     width: 100%;
@@ -2044,12 +2048,16 @@ blockquote {
 .footer {
     left: 0;
     bottom: 0;
-    height:430px;
+    height:440px;
     width: 100%;
     background-color: black;
     color: orange;
     text-align: center;
     position: relative;
+ }
+ .abc
+ {
+
  }
  .footer .footer-content{
   height: 400px;
@@ -2065,7 +2073,7 @@ blockquote {
  .footer .footer-bottom{
      background-color: black;
     color: rgb(190,190,190);
-    height:40px;
+    height:30px;
     width: 100%;
     text-align: left;
     position: relative;
