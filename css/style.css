@@ -331,7 +331,7 @@ header .navbar .send-mail{
 }
 
 header .navbar .send-mail:hover{
-    color: #000;
+    color: #FF790C;
 }
 
 header.one-page{
@@ -354,6 +354,7 @@ header .navbar.full-nav .rspbtn button{
 header .navbar.full-nav.white nav ul li a:hover{
     opacity: 1;
     transition: all ease 0.4s;
+    
 }
 
 header .navbar.full-nav.white .send-mail {
@@ -372,7 +373,7 @@ header .navbar.full-nav.white .social-icons a{
 }
 
 header .navbar.full-nav.white .social-icons a:hover{
-    color: #fff !important;
+    color: #FF790C;
     opacity: 1;
 }
 
@@ -399,6 +400,7 @@ header .navbar.full-nav.white .social-icons a:hover{
         padding: 24px 20px 18px 20px;
         font-size: 18px;
     }
+    
     header .navbar.full-nav nav ul li:hover ul.dropdown-menu li a {
         color: #000;
     }
@@ -407,10 +409,13 @@ header .navbar.full-nav.white .social-icons a:hover{
     header .navbar nav ul li a:active,
     header .navbar nav ul li a:focus {
         background: none;
+        background-color:#FF790C ;
+        
     }
     
     header .navbar nav ul li.dropdown .dropdown-menu li a:hover {
         background: #efefef;
+        background-color:#FF790C ;
     }
     
     header .navbar nav ul li.dropdown .dropdown-menu li.active a:hover {
@@ -1183,7 +1188,9 @@ header .navbar.full-nav.white .social-icons a:hover{
 .portfolio.type-3 .single-item.col-md-6 figure figcaption h3 {
   font-size: 28px;
 }
-
+.div_hover:hover {
+    background-color:#FF790C ; 
+    }
 .portfolio.type-3 .single-item figure p {
   font-size: 11px;
   font-weight: 300;
