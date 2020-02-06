@@ -651,7 +651,7 @@ header .navbar.full-nav.white .social-icons a:hover{
     background-attachment: fixed;
     background-position: 50% 50%;
 }
-a {
+ a{
     color: rgb(190,190,190);
   }
 .home.type-2 {
@@ -2054,10 +2054,6 @@ blockquote {
     color: orange;
     text-align: center;
     position: relative;
- }
- .abc
- {
-
  }
  .footer .footer-content{
   height: 400px;
