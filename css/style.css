@@ -929,10 +929,13 @@ header .navbar.full-nav.white .social-icons a:hover{
   cursor: pointer;
   margin-left: 0px;
   border-radius: 10px;
+  border-color:#FF790C ;
 }
 .about_form1:hover {
   background-color: rgba(255, 255, 255, 0.2);
   color: black;
+  border-color: black ;
+
 }
 .about_form2
 {
