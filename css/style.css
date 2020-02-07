@@ -911,7 +911,7 @@ header .navbar.full-nav.white .social-icons a:hover{
 }
 .about_form
 {
-      width: 32%;
+      width: 49.5%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -936,7 +936,7 @@ header .navbar.full-nav.white .social-icons a:hover{
 }
 .about_form2
 {
-      width: 86%;
+      width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
