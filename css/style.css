@@ -776,7 +776,7 @@ header .navbar.full-nav.white .social-icons a:hover{
 }
 
 .cloud-header{
-    background:#7cc9db;
+    background-image: url(https://source.unsplash.com/random);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -925,11 +925,11 @@ header .navbar.full-nav.white .social-icons a:hover{
   background-color: #FF790C;
   color: white;
   padding: 12px 20px;
-  border-color: #000;
   cursor: pointer;
   margin-left: 0px;
   border-radius: 10px;
   border-color:#FF790C ;
+  border: none;
 }
 .about_form1:hover {
   background-color: rgba(255, 255, 255, 0.2);
