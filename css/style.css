@@ -794,7 +794,7 @@ header .navbar.full-nav.white .social-icons a:hover{
 
 
 .cloud-header.full-nav{
-    background:#7cc9db;
+    background-image: url(https://source.unsplash.com/random);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
