@@ -326,7 +326,7 @@ header .navbar .social-icons {
 header .navbar .send-mail{
     cursor: pointer;
     text-align: center;
-    margin: 23px 3px 0 0;
+    margin: 27px 0px 0 0;
     padding-left: 0;
 }
 
@@ -407,13 +407,12 @@ header .navbar.full-nav.white .social-icons a:hover{
     header .navbar nav ul li a:active,
     header .navbar nav ul li a:focus {
         background: none;
-        background-color:#FF790C ;
         
     }
     
     header .navbar nav ul li.dropdown .dropdown-menu li a:hover {
         background: #efefef;
-        background-color:#FF790C ;
+   
     }
     
     header .navbar nav ul li.dropdown .dropdown-menu li.active a:hover {
@@ -1218,7 +1217,7 @@ header .navbar.full-nav.white .social-icons a:hover{
   font-size: 28px;
 }
 .div_hover:hover {
-    background-color:#FF790C ; 
+    background-color:white ; 
     }
 .portfolio.type-3 .single-item figure p {
   font-size: 11px;
@@ -2142,7 +2141,6 @@ blockquote {
  .fa-twitter {
    color: white;
  }
- 
  
  .fa-linkedin {
    color: white;

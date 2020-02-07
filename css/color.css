@@ -1,5 +1,4 @@
     
-.send-mail,
 .portfolio.type-1 .single-item:hover > figure h3,
 header .navbar nav ul li a:hover,
 header .navbar nav ul li a:active,
@@ -16,9 +15,12 @@ header .navbar nav ul li a:focus,
 .comment .reply,
 .home.agency .home-content .more:hover,
 .more:hover{
-    color: #fff;
+    color: #FF790C;
 } 
-
+.send-mail
+{
+    color: white;  
+}
 .selected{
    color: #d81300!important; 
 }
