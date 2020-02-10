@@ -934,6 +934,7 @@ font-weight: 400;
   border-color:#FF790C ;
   border: none;
   width: 40%;
+  display: block;
 }
 .about_form1:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -972,6 +973,22 @@ font-weight: 400;
     position: absolute;
     bottom: 80px;
     right: 0px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-block2 {
+    position: absolute;
+    bottom: 80px;
+    right: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-block3 {
+    position: absolute;
+    bottom: 80px;
+    right: 150px;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -1374,7 +1391,7 @@ font-weight: 400;
 
 .portfolio_filter.type-2 ul li{
     font-size: 13px;
-    color: #a3a3a3;
+    color: #000000;
     margin-left: 25px;
     font-weight: 300;
     cursor: pointer;
@@ -1382,7 +1399,7 @@ font-weight: 400;
 }
 
 .portfolio_filter.type-2 ul li:hover{
-    color: #000;
+    color: orange;
     transition: all ease 0.3s;
 }
 
