@@ -896,7 +896,11 @@ header .navbar.full-nav.white .social-icons a:hover{
 
 /*------------------------ 4 About ------------------------*/
 
-
+.about-font
+{
+font-size:18px;
+font-weight: 400;
+}
 
 .about.type-1 .about-image img:before{
     background: #e4e4e4; 
@@ -935,7 +939,19 @@ header .navbar.full-nav.white .social-icons a:hover{
   background-color: rgba(255, 255, 255, 0.2);
   color: black;
   border-color: black ;
-
+}
+.about_button
+{
+  background-color: #FF790C;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color:#FF790C ;
+  border: none;
+  width: 20%;
+  text-align: center;
+  display: block;
 }
 .about_form2
 {
@@ -948,6 +964,18 @@ header .navbar.full-nav.white .social-icons a:hover{
   margin-bottom: 16px;
   resize: vertical;
 }
+.container1 {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 .content {
   border-radius: 5px;
   background-color:rgba(255, 255, 255, 0.5);
@@ -985,7 +1013,24 @@ header .navbar.full-nav.white .social-icons a:hover{
     margin-top: 60px;
     padding-left: 60px;
 }
-
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: rgb(255, 121, 12);
+    color: white;
+  }
 
 /* Type 2 */
 
