@@ -173,12 +173,7 @@ font-weight: lighter!important;
 
 /* Typoghraphy */ 
 
-p{
-    font-size: 15px;
-    color: #949494;
-    line-height: 28px;
-    font-family: 'Poppins', sans-serif;
- }
+
 
 b{
     color: #000;
@@ -1399,11 +1394,9 @@ font-weight: 400;
 }
 
 .portfolio_filter.type-2 ul li:hover{
-    color: orange;
+    color: rgb(255, 121, 12);
     transition: all ease 0.3s;
 }
-
-
 .portfolio .center-btn .more{
     margin: 0 auto;
     display: table;
