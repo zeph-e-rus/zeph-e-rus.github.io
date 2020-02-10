@@ -929,6 +929,7 @@ header .navbar.full-nav.white .social-icons a:hover{
   border-radius: 10px;
   border-color:#FF790C ;
   border: none;
+  width: 40%;
 }
 .about_form1:hover {
   background-color: rgba(255, 255, 255, 0.2);
