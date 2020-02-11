@@ -802,7 +802,21 @@ header .navbar.full-nav.white .social-icons a:hover{
     margin-bottom: -139px;
     top: 0;
 }
-
+.cloud-header.full-nav1{
+    background-image: url(https://source.unsplash.com/random);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    display: table;
+    z-index: -1;
+    position: relative;
+    margin-bottom: -139px;
+    top: 0;
+}
 /* Agency Home */
 
 .home.agency{
@@ -2155,7 +2169,7 @@ blockquote {
     margin-right: 15px;
 }
 .policy-font1{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 200;
 }
 /*------------------------ 12 Footer ------------------------*/
