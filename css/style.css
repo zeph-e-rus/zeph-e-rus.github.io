@@ -2145,9 +2145,20 @@ blockquote {
     font-size: 14.5px;
     color: #414141;
 }  
-
-
 /*------------------------ 11 Footer ------------------------*/
+.policy{
+    display: flex;
+    }
+    .policy-font{
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 15px;
+}
+.policy-font1{
+    font-size: 12px;
+    font-weight: 200;
+}
+/*------------------------ 12 Footer ------------------------*/
 
 .footer {
     left: 0;
@@ -2234,7 +2245,7 @@ blockquote {
    border-width: 0.1%;
  } 
 
-/*------------------------ 12 Responsive ------------------------*/
+/*------------------------ 13 Responsive ------------------------*/
 
 
 @media (max-width:991px) {
