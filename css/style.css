@@ -551,6 +551,13 @@ font-weight: 400;
   text-align: center;
   display: block;
 }
+.about_button:hover {background-color: #914c0bb4}
+
+.about_button:active {
+  background-color: #914c0bb4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .about_form2
 {
       width: 100%;
@@ -891,6 +898,12 @@ font-weight: 400;
     text-align: center;
     position: relative;
  }
+ .footer a{
+     color: rgb(190,190,190);
+ }
+ .footer a :hover{
+    color: orange;
+}
  .footer .footer-content{
   height: 340px;
   display: flex;

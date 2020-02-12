@@ -11,6 +11,20 @@ function one() {
     document.getElementById("demo").innerHTML = "Our vision is to become the number one dedicated, efficient, viable and friendly Virtual Assistant business proudly helping business owners to plan and implement innovative ideas and strategies for ultimate growth and success that enable them to live their dream lifestyle of freedom-based business. We aim to be the global leader in the virtual assistance industry that delivers the highest quality with dedication, timeliness, a sense of warmth and team spirit.";
     
     }
+    var x = document.getElementById("content").innerHTML;
+    var y = document.getElementById("content1").innerHTML;
+    function a1() {
+      document.getElementById("content").innerHTML =x;
+      document.getElementById("content1").innerHTML = "";
+      btn2.style.backgroundColor ="#FF790C"
+      btn1.style.backgroundColor = "#914c0bb4"
+      }
+      function a2() {
+        document.getElementById("content1").innerHTML = y;
+        document.getElementById("content").innerHTML = "";
+        btn1.style.backgroundColor ="#FF790C"
+        btn2.style.backgroundColor = "#914c0bb4"
+        }  
     document.getElementById("default").innerhtml = ""+one(); 
     // Add active class to the current button (highlight it)
     var header = document.getElementById("myHeader");
@@ -22,3 +36,4 @@ function one() {
         this.className += " active";
       });
     }
+    
