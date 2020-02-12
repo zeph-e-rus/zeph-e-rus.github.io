@@ -382,7 +382,7 @@ header .navbar.full-nav .rspbtn button{
 
 /*------------------------ 3 Home Pages ------------------------*/
  a{
-    color: rgb(190,190,190);
+    color: black;
   }
 
 .home.type-3 {
@@ -962,7 +962,8 @@ font-weight: 400;
    border-width: 0.1%;
  } 
  .carousel .carousel-control.right{ opacity:1 !important;color:black; background-image:none !important;filter:none !important;}
-   .carousel .carousel-control.left{ opacity:1 !important;color:black; background-image:none !important;filter:none !important;}
+   
+ .carousel .carousel-control.left{ opacity:1 !important;color:black; background-image:none !important;filter:none !important;}
 .carousel .carousel-indicators li {
     display: inline-block;
     width: 10px;
