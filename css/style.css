@@ -855,9 +855,64 @@ font-weight: 400;
 }
 
 
-/*------------------------ 9 Clients ------------------------*/
+/*------------------------ 9 jobs ------------------------*/
 
-
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+   .filterDiv1 {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    display: none;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 2%;
+  } 
+  .dropdown-content {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 39%;
+  }
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 68%;
+  }
+  
+  .dropdown-content:hover {background-color: #ddd;}
+  
 
 /*------------------------ 10 Contact ------------------------*/
 
@@ -908,7 +963,7 @@ font-weight: 400;
     font-size: 14.5px;
     color: #414141;
 }  
-/*------------------------ 11 Footer ------------------------*/
+/*------------------------ 11 Policy ------------------------*/
 .policy{
     display: flex;
     }
