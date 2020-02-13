@@ -755,7 +755,10 @@ font-weight: 400;
 
 
 /*------------------------ 8 Blog ------------------------*/
-
+.comments img{
+    width: 100px;
+    height:100px;
+}
 
 .blog.type-1 .blog-big .image img{
     width: 100%;
