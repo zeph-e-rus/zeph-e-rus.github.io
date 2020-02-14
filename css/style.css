@@ -558,6 +558,32 @@ font-weight: 400;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+.divided {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+  }
+.divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 5px;
+  }
+.about_button1
+{
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  border-color:#FF790C ;
+  border: none;
+  text-align: center;
+  display: block;
+}
+.about_button1:active {
+  background-color: #914c0bb4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .about_form2
 {
       width: 100%;

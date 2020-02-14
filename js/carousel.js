@@ -16,13 +16,13 @@ function one() {
     function a1() {
       document.getElementById("content").innerHTML =x;
       document.getElementById("content1").innerHTML = "";
-      btn2.style.backgroundColor ="#FF790C"
-      btn1.style.backgroundColor = "#914c0bb4"
+      btn2.style.backgroundColor ="#FF790C";
+      btn1.style.backgroundColor = "#914c0bb4";
       }
       function a2() {
         document.getElementById("content1").innerHTML = y;
         document.getElementById("content").innerHTML = "";
-        btn1.style.backgroundColor ="#FF790C"
-        btn2.style.backgroundColor = "#914c0bb4"
+        btn1.style.backgroundColor ="#FF790C";
+        btn2.style.backgroundColor = "#914c0bb4";
         }  
     
