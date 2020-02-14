@@ -154,7 +154,9 @@
                     Schedule your appointment now!</b>
                 </div>
                     <div style="width:80%;background-color: rgb(218, 216, 216);margin-left: 10%;">
+                        <div style="padding: 2%;">
                         <p style="text-align: left;font-weight: bold;">Select Service:<br><br></p>
+                        <form action="/action_page.php">
                         <select style="width:100%;" id="cars">
                             <option value="1">Select Service</option>
                             <option value="2"disabled>VA Works</option>
@@ -166,12 +168,13 @@
                              <option value="8"disabled>Website Maintenance</option>
                             <option value="9">Website Maintenance</option>
                           </select>
-                          <form action="/action_page.php">
-                            <label for="date1">On or After:<br></label><br>
+                            <br><label for="date1">On or After:<br></label><br><br>
                             <input type="date" id="date" name="date">
                           </form>
+                          <button class="about_button" type="button" style="margin-left: 80%;">CHECK AVAILABILITY</button></a>
+                          <br>Please select service, date and provider then click on the Find Appointments button.
                     </div>
-               
+                    </div>
             </div>
             <!-- container end -->
         </section>

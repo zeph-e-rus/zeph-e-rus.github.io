@@ -6,7 +6,7 @@ window.cookieconsent.initialise({
       "text": "#000000"
     },
     "button": {
-      "background": "#bf5122",
+      "background": "rgb(240, 80, 20)",
       "text": "#ffffff"
     }
   },
