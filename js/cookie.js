@@ -1,11 +1,33 @@
-import "css/style.css";
-window.addEventListener("load", function()
-{
-    const newLocal = "Are you ok with optional cookies?<br>They let us give you a better experience, improve our products, and keep our marketing costs down. We won’t turn them on until you accept <a href=https://www.taskventurers.com/cookie-policy>Learn more in our cookie policy.</a>"
-    window.wpcc.init(
-        {"border":"thin","corners":"small","colors":
-        {"popup":{"background":"#edfdfa","text":"#000000","border":"#5ec2b6"},
-        "button":{"background":"#5ec2b6","text":"#ffffff"}},"position":"bottom",
-        "content":{
-        "message":newLocal,
-        "button":"Accept","button":"Decline"}})})
+window.cookieconsent.initialise({
+    container: document.getElementById("cookieconsent"),
+    palette:{
+        "popup": {
+      "background": "#a4d5eb",
+      "text": "#000000"
+    },
+    "button": {
+      "background": "#bf5122",
+      "text": "#ffffff"
+    }
+  },
+    revokable: true,
+    onStatusChange: function(status) {
+     console.log(this.hasConsented() ?
+      'enable cookies' : 'disable cookies');
+    },
+    "position": "bottom",
+    "theme": "classic",
+    "type": "opt-out",
+    "secure": true,
+    "content": {
+      "header": 'Cookies used on the website!',
+      "message": '<img style="height: 100px;width: 130px;float: left;margin-right: 22px;" src="images/cookie.svg"><b>Are you ok with optional cookies?</b><br>They let us give you a better experience, improve our products, and keep our marketing costs down.<br> We won’t turn them on until you accept.',
+      "allow": 'Accept',
+      "deny": 'Decline',
+      "link": 'Learn more in our cookie policy.',
+      "href": 'https://www.taskventurers.com/cookie-policy',
+      "close": '&#x274c;',
+      "policy": '',
+      "target": '_blank',
+      }
+   });
