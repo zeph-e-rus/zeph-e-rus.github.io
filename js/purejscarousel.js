@@ -13,7 +13,7 @@
     this.effect            = settings.effect || 'linear';
     this.infinite          = settings.infinite || false;
     this.autoplay          = settings.autoplay || false;
-    this.autoplayDelay     = settings.autoplayDelay || 4000;
+    this.autoplayDelay     = settings.autoplayDelay || 400;
     this.autoplayDirection = settings.autoplayDirection || 'next';
 
     this.autoplayTimer     = null;
