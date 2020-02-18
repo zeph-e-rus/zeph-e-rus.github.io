@@ -794,6 +794,11 @@ a {
     display: flex;
     text-align: center;
 }
+.vclass{
+    display: inline;
+    color: rgb(255, 121, 12);
+    margin-right: 5px;
+}
 
 /*------------------------ 8 Blog ------------------------*/
 
