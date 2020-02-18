@@ -1,0 +1,115 @@
+.purejscarousel {
+	overflow: hidden;
+}
+
+.purejscarousel-slides-container:before,
+.purejscarousel-slides-container:after {
+	content: "";
+	display: table;
+}
+
+.purejscarousel-slides-container:after {
+	clear: both;
+}
+
+.purejscarousel-slide {}
+
+.purejscarousel-btn {
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+	height: 20px;
+	margin-top: -25px;
+	position: absolute;
+	width: 20px;
+}
+
+.purejscarousel-btn-next {
+	/*border-bottom: 8px solid #aaa;
+	border-right: 8px solid #aaa; */
+	right: 6%;
+	-moz-transform: rotate(315deg);
+	-webkit-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+
+.purejscarousel-btn-prev {
+	/*border-bottom: 8px solid #aaa;
+	border-left: 8px solid #aaa;*/
+	left: 6%;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.purejscarousel-dots-container {
+	float: left;
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.purejscarousel-dot {
+	background: rgb(119, 119, 119);
+	border: 0;
+	border-radius: 50%;
+	box-shadow: none;
+	cursor: pointer;
+	height: 15px;
+	outline: none;
+	margin: 0 5px;
+	width: 15px;
+}
+
+.active.purejscarousel-dot {
+	background: white;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+
+.carousel {
+	margin: 50px auto;
+	overflow: hidden;
+	position: relative;
+	width: 240px;
+}
+
+@media (min-width: 768px) {
+	.carousel {
+		width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.carousel {
+		width: 960px;
+	}
+}
+
+.carousel:before,
+.carousel:after {
+	content: "";
+	display: table;
+}
+
+.carousel:after {
+	clear: both;
+}
+
+.slide {
+	color: #fff;
+	float: left;
+	text-align: left;
+	font-size: 18px;
+	width: 300px;
+	padding: 15px;
+}
