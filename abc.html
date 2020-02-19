@@ -172,20 +172,31 @@
                             <div class="paper-card" style="padding: 2%;background-color: white;">
                                 <span onclick="document.getElementById('id01').style.display='none'" class="close"
                                     title="Close Modal">&times;</span>
-                                <img style="float: right;width: 55%;margin-left: 30px;" src="images/handshake.jpg">
-                                <h4 style="color: rgb(255, 121, 12);">Login</h4>
+                                <img style="float: right;width: 40%;margin-left: 30px;" src="images/handshake.jpg">
+                                <h5 style="color: rgb(255, 121, 12);">Login</h5>
                                 <span style="display:block; height:20px;"></span>
                                 <form>
-                                    <label>Username or Email Address:</label>
+                                    <label>Username or Email Address:</label><br>
                                     <input style="width: 40%;" class="about_form" type="text" id="uname" name="uname">
-                                    <label>Password:</label>
-                                    <input style="width: 40%;" class="about_form" type="text" id="pass" name="pass">
                                     <br>
-                                    <input style="width: 10px;" type="checkbox">
-                                    <label>Remember Me</label>
+                                    <label>Password:</label><br>
+                                    <input style="width: 40%;" class="about_form" type="text" id="pass" name="pass">
                                     <span style="display:block; height:10px;"></span>
                                     <button class="about_form1" type="submit" id="submitForm">Log in</button>
                                     <span style="display:block; height:10px;"></span>
+                                                <!-- Social Login -->
+                                    <div class="social_login">
+                                        <div class="">
+                                                <a href="#" class="social_box fb">
+                                                    <span class="icon"><i class="fa fa-facebook"></i></span>
+                                                    <span class="icon_title">Connect with Facebook</span>
+
+                                                </a>
+                                                <a href="#" class="social_box google">
+                                                    <span class="icon"><i class="fa fa-google-plus"></i></span>
+                                                    <span class="icon_title">Connect with Google</span>
+                                                </a>
+                                        </div>
                                     <button type="button" onclick="document.getElementById('id01').style.display='none'"
                                     class="cancelbtn">Cancel</button>
                                     <a href="https://www.taskventurers.com/register">Register</a>
