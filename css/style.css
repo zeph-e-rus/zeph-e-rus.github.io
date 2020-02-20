@@ -829,12 +829,12 @@ a {
 .paper-card{
     font-size: 18px;
     font-weight: 400;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 .paper-card1{
     font-size: 18px;
     font-weight: 400;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     flex: 1;
     margin-left: 2%;
     margin-right: 2%;
@@ -844,7 +844,6 @@ a {
 .paper-card2{
     font-size: 18px;
     font-weight: 400;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     flex: 1;
     margin-left: 1%;
     margin-right: 1%;
@@ -853,14 +852,12 @@ a {
 .paper-card3{
     font-size: 18px;
     font-weight: 400;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 2%;
     margin-top: 2%;
 }
 .paper-card4{
     font-size: 18px;
     font-weight: 400;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     padding: 2%;
 }
