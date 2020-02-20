@@ -36,7 +36,7 @@
     </div>
     <div class="wrapper">
         <!-- HEADER -->
-        <header>
+        <header style="z-index: 1;">
             <div class="container">
                 <!-- Navigasyon Bar -->
                 <div class="navbar full-nav">
@@ -51,7 +51,7 @@
                                 <i class="fa fa-th-large fa-2x"></i>
                             </button>
                         </div>
-                        <div class="col-md-7 col-sm-12 col-xs-12 navbar-right">
+                        <div class="col-md-7 col-sm-12 col-xs-12 navbar-right" style="width: 61.333333%;">
                             <!-- Hire Me -->
                             <a class="col-md-1 hidden-xs hidden-sm pull-right send-mail"
                                 href="mailto:info@taskventurers.com">
@@ -140,6 +140,9 @@
                                             <li><a href="contact-1.html">Contact Alternative</a></li>
                                         </ul>
                                     </li>
+                                    <li class="dropdown">
+                                        <a onclick="document.getElementById('id01').style.display='block'">Login </a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -152,6 +155,7 @@
         <!-- about -->
         <div class="cloud-header full-nav">
         </div>
+        <div id="includedContent"></div>
         <section class="about-content type-1">
             <div class="container">
                 <h3 style="color: white;">Shared Web Hosting </h3>
@@ -369,9 +373,8 @@
             <hr>
             <p style="margin-left: 70px">
                 &copy;2020 Task Venturers.<a href=https://www.combinatoricstechnologies.com/> Combinatorics Technologies
-                    Pvt. Ltd</a>
-                <a style="margin-left: 600px" target=_blank href="https://www.facebook.com/taskventurers"><i
-                        class="fa fa-facebook"></i></a>
+                    Pvt. Ltd</a> <a style="margin-left: 600px" target=_blank
+                    href="https://www.facebook.com/taskventurers"><i class="fa fa-facebook"></i></a>
                 <a style="margin-left: 10px" href="https://www.linkedin.com/company/task-venturers/"><i
                         class="fa fa-linkedin"></i></a>
                 <a style="margin-left: 10px" href="https://medium.com/@thesensibleindian"><i
@@ -387,6 +390,7 @@
             <script src="js/isotope.pkgd.min.js"></script>
             <script src="js/owl.carousel.min.js"></script>
             <script src="js/carousel.js"></script>
+            <script src="js/pop-up.js"></script>
 </body>
 
 </html>

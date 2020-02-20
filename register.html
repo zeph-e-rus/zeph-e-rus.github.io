@@ -36,7 +36,7 @@
     </div>
     <div class="wrapper">
         <!-- HEADER -->
-        <header>
+        <header style="z-index: 1;">
             <div class="container">
                 <!-- Navigasyon Bar -->
                 <div class="navbar full-nav">
@@ -51,7 +51,7 @@
                                 <i class="fa fa-th-large fa-2x"></i>
                             </button>
                         </div>
-                        <div class="col-md-7 col-sm-12 col-xs-12 navbar-right">
+                        <div class="col-md-7 col-sm-12 col-xs-12 navbar-right" style="width: 61.333333%;">
                             <!-- Hire Me -->
                             <a class="col-md-1 hidden-xs hidden-sm pull-right send-mail"
                                 href="mailto:info@taskventurers.com">
@@ -140,6 +140,9 @@
                                             <li><a href="contact-1.html">Contact Alternative</a></li>
                                         </ul>
                                     </li>
+                                    <li class="dropdown">
+                                        <a onclick="document.getElementById('id01').style.display='block'">Login </a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -152,9 +155,10 @@
         <!-- about -->
         <div class="cloud-header full-nav1">
         </div>
+        <div id="includedContent"></div>
         <section class="about-content type-1">
             <div class="container">
-                        <span style="display:block; height:150px;"></span>
+                <span style="display:block; height:150px;"></span>
                 <div class="blogs row paper-card3">
                     <h6 style="text-align: center;">Register with us</h6>
                     <span style="display:block; height:20px;"></span>
@@ -175,11 +179,12 @@
                         <input style="width: 40%;" class="about_form" type="password" id="uname" name="pass" required>
                         <span style="display:block; height:20px;"></span>
                         <label>Repeat Password *</label><br>
-                        <input style="width: 40%;" class="about_form" type="password" id="pass" name="pass"required>
+                        <input style="width: 40%;" class="about_form" type="password" id="pass" name="pass" required>
                         <span style="display:block; height:20px;"></span>
                         <label>Discount Code:</label><br>
                         <input style="width: 40%;" class="about_form" type="text" id="uname" name="uname" required>
-                        <button style="float: right;margin-right: 50%;margin-top: 5px;" class="about_form1" type="button" id="submitForm">Apply</button>
+                        <button style="float: right;margin-right: 50%;margin-top: 5px;" class="about_form1"
+                            type="button" id="submitForm">Apply</button>
                         <span style="display:block; height:20px;"></span>
                         <br>
                         <button class="about_form1" type="submit" id="submitForm">Register</button>
@@ -280,8 +285,8 @@
                     <h6 style="color:rgb(190,190,190);">Email address:</h6>
                     <br />
                     <form action="index.html" method="post">
-                        <input style="color:black" type="email" name="email"
-                            placeholder="Your email address:" required><br /><br />
+                        <input style="color:black" type="email" name="email" placeholder="Your email address:"
+                            required><br /><br />
                         <button class="button1" type="submit">Sign Up</button>
                     </form>
                 </ul>
@@ -308,6 +313,7 @@
     <script src="js/parallax.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/pop-up.js"></script>
 </body>
 
 </html>
