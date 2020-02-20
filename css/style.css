@@ -146,7 +146,24 @@ h6 {
     transition: all ease 0.4s;
     padding-left: 30px;
 }
-
+.top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 1;
+    font-size: 15px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    height: 29px;
+    width: 29px;
+    border-radius: 50px;
+  }
+  
+  .top-btn:hover {
+    background-color: rgb(255, 121, 12);
+  }
 
 /*------------------------ 2 Header ------------------------*/
 
@@ -520,30 +537,13 @@ a {
 }
 
 
-.cloud-header {
+.cloud-header, .cloud-header.full-nav {
     background-image: url(https://source.unsplash.com/random);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 310px;
-    overflow: hidden;
-    width: 100%;
-    display: table;
-    z-index: -1;
-    position: relative;
-    margin-bottom: -139px;
-    top: 0;
-    background-color: #000;
-}
-
-.cloud-header.full-nav {
-    background-image: url(https://source.unsplash.com/random);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+    height: 240px;
     overflow: hidden;
     width: 100%;
     display: table;
