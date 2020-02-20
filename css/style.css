@@ -380,7 +380,8 @@ header .navbar.full-nav .rspbtn button {
     /* Position it in the top right corner outside of the modal */
     position: absolute;
     right: 8%;
-    top: 3%;
+    top: 17%;
+    color: #000;
     font-size: 35px;
     font-weight: bold;
   }
@@ -413,7 +414,6 @@ header .navbar.full-nav .rspbtn button {
 
 .social_login .social_box {
         clear: both;
-        padding: 10px;
         margin-bottom: 10px;
         background: #F4F4F2;
         overflow: hidden;
