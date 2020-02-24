@@ -170,8 +170,9 @@ h6 {
 header .navbar .send-mail {
     cursor: pointer;
     text-align: center;
-    margin: 27px 0px 0 0;
+    margin: 30px 0px 0 0;
     padding-left: 0;
+    font-size: 14px;
 }
 
 header .navbar .send-mail:hover {
@@ -395,12 +396,12 @@ header .navbar.full-nav .rspbtn button {
   /* The Close Button */
   .close {
     /* Position it in the top right corner outside of the modal */
-    position: absolute;
-    right: 8.5%;
-    top: 18%;
+    float: right;
     color: #000;
     font-size: 35px;
-    font-weight: bold;
+    line-height: 0;
+    margin: -9px;
+    margin-right: -16px;
   }
   
   /* Close button on hover */
