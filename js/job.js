@@ -13,6 +13,20 @@ function myFunction() {
     document.getElementById("myDropdown").classList.remove("show");
     document.getElementById("myDropdown1").classList.remove("show");
   }
+  $(document).mouseup(function (e) { 
+    if ($(e.target).closest(".myDropdown").length 
+                === 0) { 
+                  document.getElementById("myDropdown").classList.remove("show");
+    } 
+    if ($(e.target).closest(".myDropdown1").length 
+    === 0) { 
+      document.getElementById("myDropdown1").classList.remove("show");
+    } 
+    if ($(e.target).closest(".myDropdown2").length 
+    === 0) { 
+      document.getElementById("myDropdown2").classList.remove("show");
+    } 
+}); 
   // Close the dropdown if the user clicks outside of it
   window.onclick = e => {
       

@@ -48,6 +48,8 @@ function abc2(){
     btn.style.display = "none";
     form1.style.display = "none";
     bt.style.display = "none";
-    para.innerHTML="Thankyou ";
-
+    para2.innerHTML="Thankyou ";
+    para1.innerHTML="";
+    form2.innerHTML="";
+    para.innerHTML="";
 }
