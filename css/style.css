@@ -642,7 +642,6 @@ a {
     width: 20%;
     text-align: center;
     display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about_button:hover {
@@ -680,7 +679,6 @@ a {
     border: none;
     text-align: center;
     display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about_button1:active {
@@ -1068,7 +1066,6 @@ a {
     border: none;
     cursor: pointer;
     margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dropdown {
@@ -1256,6 +1253,7 @@ a {
 
 ul li {
     color: rgb(190, 190, 190);
+    margin-top: 2px;
 }
 
 ul li:hover {
@@ -1271,7 +1269,6 @@ ul li:hover {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button1:hover {
