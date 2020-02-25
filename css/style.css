@@ -1317,6 +1317,7 @@ hr {
     background-image: none !important;
     filter: none !important;
     width: 10%;
+    text-shadow: none;
 }
 
 .container-fluid .carousel .carousel-control.right {
@@ -1325,6 +1326,7 @@ hr {
     background-image: none !important;
     filter: none !important;
     width: 10%;
+    text-shadow: none;
 }
 
 .carousel .carousel-control.right {
@@ -1333,6 +1335,7 @@ hr {
     background-image: none !important;
     filter: none !important;
     width: 0%;
+    text-shadow: none;
 }
 
 .carousel .carousel-control.left {
@@ -1341,6 +1344,7 @@ hr {
     background-image: none !important;
     filter: none !important;
     width: 0%;
+    text-shadow: none;
 }
 
 .carousel .carousel-indicators li {
