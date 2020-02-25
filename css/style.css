@@ -139,7 +139,7 @@ h6 {
     display: block;
     position: relative;
     transition: all ease 0.6s;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .more:hover {
@@ -161,10 +161,15 @@ h6 {
     border-radius: 50px;
   }
   
-  .top-btn:hover {
+.top-btn:hover {
     background-color: rgb(255, 121, 12);
   }
-
+.blog-heading{
+    margin-left: 2%; 
+     text-decoration: underline;
+    -webkit-text-decoration-color: orange; /* Safari */  
+    text-decoration-color: orange;
+  }
 /*------------------------ 2 Header ------------------------*/
 
 header .navbar .send-mail {
