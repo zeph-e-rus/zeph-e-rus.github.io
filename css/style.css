@@ -1295,11 +1295,9 @@ input {
 .fa-linkedin {
     color: white;
 }
-
-.fa-medium-m {
-    color: white;
-}
-
+.fa-long-arrow-alt-right{
+    color:orange;
+  }
 .contact {
     padding: 50px;
 }
