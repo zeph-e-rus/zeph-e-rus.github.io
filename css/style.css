@@ -140,6 +140,7 @@ h6 {
     position: relative;
     transition: all ease 0.6s;
     font-size: 20px;
+    margin-left: 3%;
 }
 
 .more:hover {
@@ -165,10 +166,8 @@ h6 {
     background-color: rgb(255, 121, 12);
   }
 .blog-heading{
-    margin-left: 2%; 
-     text-decoration: underline;
-    -webkit-text-decoration-color: orange; /* Safari */  
-    text-decoration-color: orange;
+    width: 40%;
+    border-bottom: 4px solid orange;
   }
 /*------------------------ 2 Header ------------------------*/
 
@@ -734,7 +733,7 @@ a {
 }
 
 .page-title h5 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .page-title span {
@@ -1218,7 +1217,7 @@ a {
     bottom: 0;
     height: 380px;
     width: 100%;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(50, 50, 50);
     color: orange;
     text-align: center;
     position: relative;
@@ -1245,7 +1244,7 @@ a {
 }
 
 .footer .footer-bottom {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(50, 50, 50);
     color: rgb(190, 190, 190);
     height: 0px;
     width: 100%;
@@ -1314,19 +1313,36 @@ hr {
     border-style: inset;
     border-width: 0.1%;
 }
-
-.carousel .carousel-control.right {
+.container-fluid .carousel .carousel-control.left {
     opacity: 1 !important;
     color: black;
     background-image: none !important;
     filter: none !important;
+    width: 10%;
+}
+
+.container-fluid .carousel .carousel-control.right {
+    opacity: 1 !important;
+    color: black;
+    background-image: none !important;
+    filter: none !important;
+    width: 10%;
+}
+
+.carousel .carousel-control.right {
+    opacity: 1 !important;
+    color: orange;
+    background-image: none !important;
+    filter: none !important;
+    width: 0%;
 }
 
 .carousel .carousel-control.left {
     opacity: 1 !important;
-    color: black;
+    color: orange;
     background-image: none !important;
     filter: none !important;
+    width: 0%;
 }
 
 .carousel .carousel-indicators li {
