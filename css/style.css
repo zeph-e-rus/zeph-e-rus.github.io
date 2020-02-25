@@ -1363,7 +1363,10 @@ hr {
 .carousel .carousel-indicators .active {
     background-color: black;
 }
-
+.hu-powered-by {
+    display: none;
+    opacity: 0;
+}
 
 /*------------------------ 13 Responsive ------------------------*/
 
