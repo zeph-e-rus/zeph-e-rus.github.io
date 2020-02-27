@@ -756,7 +756,27 @@ h5 {
     margin-top: 60px;
     padding-left: 60px;
 }
-
+.mar-left-1{
+    margin-left: 1%;
+}
+.mar-left-6{
+    margin-left: 6%;
+}
+.mar-left-7{
+    margin-left: 7%;
+}
+.mar-left-8{
+    margin-left: 8%;
+}
+.mar-left-9{
+    margin-left: 9%;
+}
+.mar-left-12{
+    margin-left: 12%;
+}
+.mar-left-8{
+    margin-left: 8%;
+}
 
 /* Style the buttons */
 
@@ -1366,7 +1386,11 @@ hr {
     display: none;
     opacity: 0;
 }
-
+.carousel-content{
+    padding: 5%;
+    margin-right: 3%;
+    margin-left: 8%;
+}
 /*------------------------ 13 Responsive ------------------------*/
 
 @media (max-width:991px) {
