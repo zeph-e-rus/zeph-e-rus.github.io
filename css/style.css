@@ -1264,6 +1264,17 @@ h5 {
     flex: 1.75;
     padding: 25px;
 }
+.footer-form{
+    border-radius: 5px;
+    padding: 1%;
+    background: none;
+    border-color: orange;
+    border-width: 2px;
+}
+.footer-copyright{
+    margin-left: 45px;
+    float: left;
+}
 .vl {
     border-right: 1px solid white;
     height: 270px;
