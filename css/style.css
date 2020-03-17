@@ -1259,7 +1259,10 @@ h5 {
 .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
-    border: 0px solid white;
+}
+.footer-section1 {
+    flex: 1.75;
+    padding: 25px;
 }
 
 .footer .footer-bottom {
