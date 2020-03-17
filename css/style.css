@@ -1264,11 +1264,11 @@ h5 {
     flex: 1.75;
     padding: 25px;
 }
-.footer-section1 {
-    flex: 1.75;
-    padding: 25px;
-}
-
+.vl {
+    border-right: 1px solid white;
+    height: 300px;
+    float: right;
+  }
 .footer .footer-bottom {
     background-color: rgb(50, 50, 50);
     color: rgb(190, 190, 190);
