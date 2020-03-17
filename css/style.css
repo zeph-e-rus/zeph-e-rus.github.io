@@ -1275,6 +1275,9 @@ h5 {
     margin-left: 45px;
     float: left;
 }
+.medium-size{
+    font-size: 24px;
+}
 .vl {
     border-right: 1px solid white;
     height: 270px;
