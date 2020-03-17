@@ -1235,12 +1235,13 @@ h5 {
 .footer {
     left: 0;
     bottom: 0;
-    height: 380px;
+    height: 340px;
     width: 100%;
-    background-color: rgb(50, 50, 50);
+    background-color: black;
     color: orange;
     text-align: center;
     position: relative;
+    font-size: 15px;
 }
 
 .footer a {
@@ -1252,7 +1253,7 @@ h5 {
 }
 
 .footer .footer-content {
-    height: 340px;
+    height: 310px;
     display: flex;
     text-align: left;
 }
@@ -1285,7 +1286,7 @@ h5 {
     float: right;
   }
 .footer .footer-bottom {
-    background-color: rgb(50, 50, 50);
+    background-color: black;
     color: rgb(190, 190, 190);
     height: 0px;
     width: 100%;
