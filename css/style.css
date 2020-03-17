@@ -150,8 +150,8 @@ h6 {
 .top-btn {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 25px;
+    bottom: 100px;
+    right: 20px;
     z-index: 1;
     font-size: 15px;
     border: none;
@@ -757,10 +757,10 @@ h5 {
     padding-left: 60px;
 }
 .mar-left-1{
-    margin-left: 1%;
+    margin-left: 0%;
 }
 .mar-left-6{
-    margin-left: 6%;
+    margin-left: 0%;
 }
 .mar-left-7{
     margin-left: 7%;
@@ -1328,7 +1328,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 0.1%;
+    border-width: 1px;
 }
 .container-fluid .carousel .carousel-control.left {
     opacity: 1 !important;
@@ -1390,6 +1390,9 @@ hr {
     padding: 5%;
     margin-right: 3%;
     margin-left: 8%;
+}
+::placeholder {
+    color:rgb(190,190,190);
 }
 /*------------------------ 13 Responsive ------------------------*/
 
